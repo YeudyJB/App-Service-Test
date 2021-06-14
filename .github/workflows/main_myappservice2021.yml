@@ -20,6 +20,7 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: '5.0.x'
+        include-prerelease: true
 
     - name: Build with dotnet
       run: dotnet build --configuration Release
@@ -52,5 +53,5 @@ jobs:
       with:
         app-name: 'myappservice2021'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_2efd6eae7d504500ba9c0461ef6903dc }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_4a193f3a46554a749576434fc7b3606d }}
         package: .
