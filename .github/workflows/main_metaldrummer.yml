@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'metaldrummer'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FC9904AE35994B01ABCC5FB94EFF83F7 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_797370A71FA14EA88EB1F2342C2ED6D8 }}
           package: .
